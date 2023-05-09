@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "formula1"
+version = "0.1.0"
+description = "Dbt Pipeline to excute ml based algorithms for prediction of formula1 race result"
+authors = ["Natalie_ <natalie.jungmann@alligator-company.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dbt-core = "^1.5.0"
+dbt-snowflake = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
